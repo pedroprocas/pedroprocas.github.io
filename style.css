@@ -1,0 +1,69 @@
+.title-content {
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    margin: 0 auto;
+}
+.card-title {
+    align-self: center;
+}
+.card-showcase {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.card-description {
+    background-color: aliceblue;
+    padding: 25px;
+    font-size: 25px;
+    border-radius: 20px;
+    width: 500px;
+    margin: 0 auto;
+}
+.profile {
+    text-align: center;
+    margin-left: 150px;
+}
+
+.profile-photo {
+    height: 150px;
+    min-width: 150px;
+    width: 150px;
+    object-fit:cover;
+    overflow: hidden;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items:left;
+    border: 5px solid rgb(68, 66, 67);
+}
+.people-description {
+    background-color: rgb(186, 107, 250);
+    padding: 15px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    
+}
+.profile-description {
+    border-radius: 5px;
+    background-color:aliceblue;
+    font-size: 18px;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.profile-content {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+}
+ body {
+    background-image: url(images/1317749.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+ }
